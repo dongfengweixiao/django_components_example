@@ -1,0 +1,14 @@
+{% load component_tags %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Django Components Example</title>
+    {% component_dependencies %}
+</head>
+<body>
+    <h1>Django Components Example</h1>
+    {% component name="calendar" date="2015-06-19" %}
+</body>
+</html>

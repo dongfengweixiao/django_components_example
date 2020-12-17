@@ -1,0 +1,3 @@
+/* In a file called style.css */
+.calendar-component { width: 200px; background: pink; }
+.calendar-component span { font-weight: bold; }
